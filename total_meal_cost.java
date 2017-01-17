@@ -18,8 +18,6 @@ public class total_meal_cost {
         double tip = (mealCost *((double)tipPercent/100)); //calculating tip amount
         double tax = (mealCost*((double)taxPercent/100)); //calculating tax amount
         double total= (mealCost+tip+tax); //calculating total amount
-        
-        //int totalCost = (int) Math.round(total); //rounding off total meal cost
 
         System.out.println("The total meal cost is "+total+" INR");
 	}
